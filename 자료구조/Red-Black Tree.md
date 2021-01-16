@@ -1,3 +1,5 @@
+
+
 ## Red-Black Tree
 
 > 이진탐색트리의 일종으로 최악의 경우 시간복잡도가 O(N)이 되는데 이를 방지하기 위한 것.
@@ -38,12 +40,13 @@
 
   5) 모든 노드에 대해서 그 노드로부터 자손인 리프노드에 이르는 모든 경로에는 동일한 개수의 black 노드가   존재한다.
 
-  <img src="Red-Black Tree.assets/1280px-Red-black_tree_example.svg.png" alt="1280px-Red-black_tree_example.svg" style="zoom:80%;" />
-  
-  
-  					[레드-블랙 트리]
 
 
+
+
+<img src="Red-Black Tree.assets/1280px-Red-black_tree_example.svg-1610768019594.png" alt="1280px-Red-black_tree_example.svg" style="zoom:80%;" />
+
+​																			[Red-Black Tree]
 
 <img src="Red-Black Tree.assets/image-20210115221829068.png" alt="image-20210115221829068" style="zoom:80%;" />
 
