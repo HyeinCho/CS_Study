@@ -41,8 +41,7 @@
   <img src="Red-Black Tree.assets/1280px-Red-black_tree_example.svg.png" alt="1280px-Red-black_tree_example.svg" style="zoom:80%;" />
   
   
-  
-  ​																[레드-블랙 트리]
+  					[레드-블랙 트리]
 
 
 
