@@ -36,19 +36,19 @@
 
   4) red노드의 자식노드들은 전부 black, red노드는 연속해서 등장 하지 않음
 
-  5) 모든 노드에 대해서 그 노드로부터 자손인 리프노드에 이르는 모든 경로에는 동일한 개수의 black 노드가 존재한다.
+  5) 모든 노드에 대해서 그 노드로부터 자손인 리프노드에 이르는 모든 경로에는 동일한 개수의 black 노드가   존재한다.
 
+  ![1280px-Red-black_tree_example.svg](Red-Black Tree.assets/1280px-Red-black_tree_example.svg.png)
   
   
-  ![img](레드블랙트리(Red-Black Tree).assets/1280px-Red-black_tree_example.svg.png)
   
   ​																[레드-블랙 트리]
 
 
 
+![image-20210115221829068](Red-Black Tree.assets/image-20210115221829068.png)
 
 
-![image-20210116122115077](Red-Black Tree.assets/image-20210116122115077.png)
 
 ​																							[조건 5]
 
