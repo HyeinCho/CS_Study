@@ -34,11 +34,23 @@
 
   3) 모든 리프노드(즉, NIL노드)는 black이고,
 
-  4) 모든 노드에 대해서 그 노드로부터 자손인 리프노드에 이르는 모든 경로에는 동일한 개수의 black    	노드가 존재한다.
+  4) red노드의 자식노드들은 전부 black, red노드는 연속해서 등장 하지 않음
 
+  5) 모든 노드에 대해서 그 노드로부터 자손인 리프노드에 이르는 모든 경로에는 동일한 개수의 black 노드가 존재한다.
+
+  
+  
   ![img](레드블랙트리(Red-Black Tree).assets/1280px-Red-black_tree_example.svg.png)
-
+  
   ​																[레드-블랙 트리]
+
+
+
+
+
+![image-20210116122115077](Red-Black Tree.assets/image-20210116122115077.png)
+
+​																							[조건 5]
 
 ### 레드-블랙 트리의 높이
 
@@ -128,6 +140,13 @@
 
 
 
+---
+
+* 면접 질문
+  - 레드블랙트리를 사용하는 이유?
+  - 레드블랙트리 조건 ?
+  - 이진탐색트리의 한계? 한계점을 극복하기 위한 반복
+
 
 
 ---
@@ -137,3 +156,4 @@
 https://www.youtube.com/watch?v=gF20ZSplxZE
 
 https://ko.wikipedia.org/wiki/%EB%A0%88%EB%93%9C-%EB%B8%94%EB%9E%99_%ED%8A%B8%EB%A6%AC
+
