@@ -41,8 +41,7 @@
   ![1280px-Red-black_tree_example.svg](Red-Black Tree.assets/1280px-Red-black_tree_example.svg.png)
   
   
-  
-  ​																[레드-블랙 트리]
+  					[레드-블랙 트리]
 
 
 
