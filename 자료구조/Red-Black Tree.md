@@ -38,7 +38,7 @@
 
   5) 모든 노드에 대해서 그 노드로부터 자손인 리프노드에 이르는 모든 경로에는 동일한 개수의 black 노드가   존재한다.
 
-  ![1280px-Red-black_tree_example.svg](Red-Black Tree.assets/1280px-Red-black_tree_example.svg.png)
+  <img src="Red-Black Tree.assets/1280px-Red-black_tree_example.svg.png" alt="1280px-Red-black_tree_example.svg" style="zoom:80%;" />
   
   
   
@@ -46,7 +46,7 @@
 
 
 
-![image-20210115221829068](Red-Black Tree.assets/image-20210115221829068.png)
+<img src="Red-Black Tree.assets/image-20210115221829068.png" alt="image-20210115221829068" style="zoom:80%;" />
 
 
 
