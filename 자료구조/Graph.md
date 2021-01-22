@@ -12,7 +12,6 @@ _cf) 트리 또한 그래프이며, 그 중 사이클이 허용되지 않는 그
 간선에 방향성이 포함되어 있는 그래프를 Directed Graph 라고 한다.
 
 <img width="533" alt="a" src="https://user-images.githubusercontent.com/42761910/105529197-64bbbe80-5d29-11eb-9c7f-388f0b82c9af.png">
-![b](https://user-images.githubusercontent.com/42761910/105529200-65545500-5d29-11eb-8682-3040f292539c.png)
 
 
 * Directed Graph (Digraph)
@@ -64,6 +63,8 @@ vertex 의 adjacent list 를 확인해봐야 하므로 vertex 간 연결되어�
 그래프 상에 존재하는 임의의 한 정점으로부터 연결되어 있는 한 정점으로만 나아간다라는 방법을 우선으로 탐색한다. 일단 연결된 정점으로 탐색하는 것이다. 연결할 수 있는 정점이 있을 때까지 계속 연결하다가 더이상 연결되지 않은 정점이 없으면 바로 그 전 단계의 정점으로 돌아가서 연결할 수 있는 정점이 있는지 살펴봐야 할 것이다. 갔던 길을 되돌아 오는 상황이 존재하는 미로찾기처럼 구성하면 되는 것이다. 어떤 자료구조를 사용해야할까? 바로 Stack 이다.
 **Time Complexity : O(V+E) … vertex 개수 + edge 개수**
 ![c](https://user-images.githubusercontent.com/42761910/105529189-638a9180-5d29-11eb-9653-3bd7e4e76489.png)
+![b](https://user-images.githubusercontent.com/42761910/105529200-65545500-5d29-11eb-8682-3040f292539c.png)
+
 #### 너비 우선 탐색 (Breadth First Search: BFS)
 
 그래프 상에 존재하는 임의의 한 정점으로부터 연결되어 있는 모든 정점으로 나아간다. Tree 에서의 Level Order Traversal 형식으로 진행되는 것이다. BFS 에서는 자료구조로 Queue 를 사용한다. 연락을 취할 정점의 순서를 기록하기 위한 것이다.
@@ -73,6 +74,7 @@ vertex 의 adjacent list 를 확인해봐야 하므로 vertex 간 연결되어�
 _**! BFS 로 구한 경로는 최단 경로이다.**_
 
 ![d](https://user-images.githubusercontent.com/42761910/105529192-64232800-5d29-11eb-94d1-cfaa937bf046.png)
+![e](https://user-images.githubusercontent.com/42761910/105529625-00e5c580-5d2a-11eb-91bb-d0e1a2c8221c.png)
 </br>
 
 ### Minimum Spanning Tree
