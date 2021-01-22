@@ -10,6 +10,11 @@ _cf) 트리 또한 그래프이며, 그 중 사이클이 허용되지 않는 그
 
 말 그대로 정점과 간선의 연결관계에 있어서 방향성이 없는 그래프를 Undirected Graph 라 하고,
 간선에 방향성이 포함되어 있는 그래프를 Directed Graph 라고 한다.
+![c](https://user-images.githubusercontent.com/42761910/105529189-638a9180-5d29-11eb-9653-3bd7e4e76489.png)
+![d](https://user-images.githubusercontent.com/42761910/105529192-64232800-5d29-11eb-94d1-cfaa937bf046.png)
+<img width="533" alt="a" src="https://user-images.githubusercontent.com/42761910/105529197-64bbbe80-5d29-11eb-9c7f-388f0b82c9af.png">
+![b](https://user-images.githubusercontent.com/42761910/105529200-65545500-5d29-11eb-8682-3040f292539c.png)
+
 
 * Directed Graph (Digraph)
 
