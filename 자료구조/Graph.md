@@ -90,9 +90,8 @@ vertex 의 adjacent list 를 확인해봐야 하므로 vertex 간 연결되어�
 **Time Complexity : O(V+E) … vertex 개수 + edge 개수**
 _**! BFS 로 구한 경로는 최단 경로이다.**_
 </br>
-<img src="https://user-images.githubusercontent.com/42761910/105529625-00e5c580-5d2a-11eb-91bb-d0e1a2c8221c.png" width=400 height=400>
 <img src="https://user-images.githubusercontent.com/42761910/105529192-64232800-5d29-11eb-94d1-cfaa937bf046.png" width=400 height=400>
-<img width="258" alt="f" src="https://user-images.githubusercontent.com/42761910/105531099-27a4fb80-5d2c-11eb-9af4-296b4e00044a.PNG">
+<img width="350" height=300 alt="f" src="https://user-images.githubusercontent.com/42761910/105531099-27a4fb80-5d2c-11eb-9af4-296b4e00044a.PNG">
 </br>
 
 ### Minimum Spanning Tree
