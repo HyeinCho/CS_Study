@@ -50,12 +50,12 @@ Directed Graph 에서는 간선에 방향성이 존재하기 때문에 Degree �
 
 ##### ex)
      1  2  3  4  5  6
-------------------------
-1 |  0  1  0  0  0  0  
-2 |  0  0  1  0  0  0 
-3 |  0  0  0  0  0  0  
-4 |  0  0  0  0  1  1 
-5 |  0  0  0  0  0  0
+   ---------------------
+1 |  0  1  0  0  0  0 \
+2 |  0  0  1  0  0  0 \
+3 |  0  0  0  0  0  0  \
+4 |  0  0  0  0  1  1 \
+5 |  0  0  0  0  0  0 \
 6 |  0  0  1  0  0  0   방향성이 없는 그래프 구현하고 싶다? 그러면 대각선 대칭 해주면됨
 
 
@@ -80,8 +80,8 @@ vertex 의 adjacent list 를 확인해봐야 하므로 vertex 간 연결되어�
 
 그래프 상에 존재하는 임의의 한 정점으로부터 연결되어 있는 한 정점으로만 나아간다라는 방법을 우선으로 탐색한다. 일단 연결된 정점으로 탐색하는 것이다. 연결할 수 있는 정점이 있을 때까지 계속 연결하다가 더이상 연결되지 않은 정점이 없으면 바로 그 전 단계의 정점으로 돌아가서 연결할 수 있는 정점이 있는지 살펴봐야 할 것이다. 갔던 길을 되돌아 오는 상황이 존재하는 미로찾기처럼 구성하면 되는 것이다. 어떤 자료구조를 사용해야할까? 바로 Stack 이다.
 **Time Complexity : O(V+E) … vertex 개수 + edge 개수**
-<img src="https://user-images.githubusercontent.com/42761910/105529189-638a9180-5d29-11eb-9653-3bd7e4e76489.png" width=500 height=500>
-<img src="https://user-images.githubusercontent.com/42761910/105529200-65545500-5d29-11eb-8682-3040f292539c.png" width=500 height=500>
+<img src="https://user-images.githubusercontent.com/42761910/105529189-638a9180-5d29-11eb-9653-3bd7e4e76489.png" width=200 height=200>
+<img src="https://user-images.githubusercontent.com/42761910/105529200-65545500-5d29-11eb-8682-3040f292539c.png" width=200 height=200>
 
 #### 너비 우선 탐색 (Breadth First Search: BFS)
 
@@ -91,8 +91,8 @@ vertex 의 adjacent list 를 확인해봐야 하므로 vertex 간 연결되어�
 **Time Complexity : O(V+E) … vertex 개수 + edge 개수**
 _**! BFS 로 구한 경로는 최단 경로이다.**_
 
-<img src="https://user-images.githubusercontent.com/42761910/105529192-64232800-5d29-11eb-94d1-cfaa937bf046.png" width=500 height=500>
-<img src="https://user-images.githubusercontent.com/42761910/105529625-00e5c580-5d2a-11eb-91bb-d0e1a2c8221c.png" width=500 height=500>
+<img src="https://user-images.githubusercontent.com/42761910/105529192-64232800-5d29-11eb-94d1-cfaa937bf046.png" width=200 height=200>
+<img src="https://user-images.githubusercontent.com/42761910/105529625-00e5c580-5d2a-11eb-91bb-d0e1a2c8221c.png" width=200 height=200>
 </br>
 
 ### Minimum Spanning Tree
