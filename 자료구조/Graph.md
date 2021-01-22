@@ -50,7 +50,7 @@ Directed Graph 에서는 간선에 방향성이 존재하기 때문에 Degree �
 
 ##### ex)
      1  2  3  4  5  6
-   - - - - - - - - - - \
+   -    -  -  -  -    \
 1 |  0  1  0  0  0  0 \
 2 |  0  0  1  0  0  0 \
 3 |  0  0  0  0  0  0  \
@@ -90,9 +90,9 @@ vertex 의 adjacent list 를 확인해봐야 하므로 vertex 간 연결되어�
 즉 vertex 들을 방문한 순서대로 queue 에 저장하는 방법을 사용하는 것이다.
 **Time Complexity : O(V+E) … vertex 개수 + edge 개수**
 _**! BFS 로 구한 경로는 최단 경로이다.**_
-
+</br>
 <img src="https://user-images.githubusercontent.com/42761910/105529192-64232800-5d29-11eb-94d1-cfaa937bf046.png" width=400 height=400>
-<img src="https://user-images.githubusercontent.com/42761910/105529625-00e5c580-5d2a-11eb-91bb-d0e1a2c8221c.png" width=300 height=300>
+<img src="https://user-images.githubusercontent.com/42761910/105529625-00e5c580-5d2a-11eb-91bb-d0e1a2c8221c.png" width=400 height=400>
 </br>
 
 ### Minimum Spanning Tree
